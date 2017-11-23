@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:600,700,800" rel="stylesheet"> 
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
@@ -14,13 +14,14 @@
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/pro_ls_style.css">
+  <link rel="stylesheet" href="css/pro_ls_responsive.css">
 </head>
 
 <body>
   <section class="product_top">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col">
+        <div class="col-md-6 col-sm-12 text-sm-center">
           <div class="top_language">
             <label for="#language_options"><p><i class="fa fa-globe"></i></p></label>
             <select name="" id="#language_options">
@@ -37,7 +38,7 @@
             <p><i class="fa fa-paper-plane"></i> info@site.com</p>
           </div>
         </div>
-         <div class="col text-right">
+         <div class="col-md-6 col-sm-12 text-sm-center text-right">
           <div class="top_registration">
             <p><i class="fa fa-sign-in"></i> <a href="#" class="top_signin">Sign In</a> / <a href="#" class="top_register">Register</a></p>
           </div>
@@ -114,7 +115,7 @@
         <div class="col">
           <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars text-white"></i>
               </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -175,9 +176,9 @@
   <section class="product_ls_main_area">
     <div class="container">
       <div class="row">
-        <div class="col-sm-9">
+        <div class="col-md-8 col-lg-9 col-12">
           <div class="product_filter_area clearfix">
-            <div class="col-md-4 col-sm-6 col-12 float-left">
+            <div class="col-lg-4 col-sm-6 col-12 float-left">
               <div class="product_sort_by">
                 <label for="#product_sorting"><p>Sort by: </p></label>
                 <span class="custom-dropdown custom-dropdown--emerald">
@@ -189,15 +190,7 @@
                 </span>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 float-left">
-              <!--<div class="product_show_per_page">
-                <label for="#product_showing_value"><p>Show: </p></label>
-                <select name="" id="product_showing_value">
-                    <option value="">12 Items Per Page</option>
-                    <option value="">20 Items Per Page</option>
-                    <option value="">50 Items Per Page</option>
-                  </select>
-              </div>-->
+            <div class="col-lg-4 col-sm-6 col-12 float-left">
               <div class="product_show_per_page">
                 <label for="#product_sorting"><p>Show: </p></label>
                 <span class="custom-dropdown custom-dropdown--emerald">
@@ -209,8 +202,8 @@
                 </span>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 float-left">
-              <div class="product_view_style text-right">
+            <div class="col-lg-4 col-sm-12 col-12 float-left">
+              <div class="product_view_style text-right text-sm-center">
                 <a href="#"><i class="fa fa-th-large"></i></a>
                 <a href="#"><i class="fa fa-list-ul"></i></a>
               </div>
@@ -219,8 +212,9 @@
           <!--End Of Product Filter Container-->
           <div class="product_items_area ">
             <div class="col-12 p-0 clearfix">
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -255,9 +249,50 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls2" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls1" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="product_item_wishlist_button">
+                  <a href="#"><i class="fa fa-heart"></i></a>
+                </div>
+                <div class="product_item_description text-center">
+                  <div class="product_ls_des_categories">
+                    <a href="#">Men</a>
+                    <a href="#">Category</a>
+                  </div>
+                  <a href="#">
+                    <h5 class="product_item_title">Product Title Here</h5>
+                  </a>
+                  <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
+                  <a href="#" class="product_ls_view_cart">View Cart</a>
+                </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls2" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -292,9 +327,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls3" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls3" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -329,9 +366,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls4" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls4" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -366,9 +405,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls5" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls5" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -403,9 +444,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls6" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls6" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -440,9 +483,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls7" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls7" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -477,9 +522,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls8" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls8" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -514,9 +561,11 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls9" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
+              <div class="col-lg-4 col-sm-6 col-6 float-left">
+                <div class="product_item_single_inner">
+                  <div id="carouselExampleControls9" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
@@ -551,50 +600,17 @@
                   <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
                   <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-6 float-left">
-                <div id="carouselExampleControls10" class="carousel slide product_item_img" data-interval="9999999999999" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="img/product_single_img.jpg" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls10" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls10" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <div class="product_item_wishlist_button">
-                  <a href="#"><i class="fa fa-heart"></i></a>
-                </div>
-                <div class="product_item_description text-center">
-                  <div class="product_ls_des_categories">
-                    <a href="#">Men</a>
-                    <a href="#">Category</a>
-                  </div>
-                  <a href="#">
-                    <h5 class="product_item_title">Product Title Here</h5>
-                  </a>
-                  <p class="product_ls_price"> <del>$96.00</del> $58.00</p>
-                  <a href="#" class="product_ls_view_cart">View Cart</a>
                 </div>
               </div>
             </div>
           </div>
           <!--Product Items All-->
-        </div>
+        </div><!--
+        
+        
+        -->
         <!--Product Items-->
-        <div class="col-sm-3">
+        <div class="col-md-4 col-lg-3 col-12">
           <div class="col-12 p-0">
             <div class="product_ls_categories">
               <h5>Categories</h5>
@@ -744,14 +760,16 @@
               </div>
             </div>
             <div class="product_ls_price_filter">
-              <h5>Filter by Price</h5>
-              
-              <div id="slider-range"></div>
-              <form action="">
-                <p><label for="amount">Price:</label> <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; cursor: default">
-                  <input type="submit" value="filter">
-                </p>
-              </form>
+                <h5>Filter by Price</h5>
+                
+              <div class="product_ls_price_filter_inner">
+                <div id="slider-range"></div>
+                <form action="">
+                  <p><label for="amount">Price:</label> <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; cursor: default">
+                    <input type="submit" value="filter">
+                  </p>
+                </form>
+              </div>
               
             </div>
             
@@ -762,53 +780,59 @@
             
             <div class="product_ls_featured_product">
               <h5>Featured Products</h5>
+              <div class="widget_featured_product_wrapper">
+                
+                <div class="single_link_featured">
+                  <div class="media">
+                    <img class="align-self-start  mr-3" src="img/pro_ls_featured_thumb.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <div class="review_stars">
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                      </div>
+                      <h5 class="mt-0"><a href="#">Product Title Here</a></h5>
+                      <p> <del>$96.00</del>  $72.00</p>
+                    </div>
+                  </div>
+                </div>
+                              
+                <hr>
+                <div class="single_link_featured">
+                  <div class="media">
+                    <img class="align-self-start  mr-3" src="img/pro_ls_featured_thumb.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <div class="review_stars">
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                        <a class="" href=""><i class="fa fa-star"></i></a>
+                        <a class="" href=""><i class="fa fa-star"></i></a>
+                      </div>
+                      <h5 class="mt-0"><a href="#">Product Title Here</a></h5>
+                      <p> $172.00</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
               <div class="single_link_featured">
                 <div class="media">
                   <img class="align-self-start  mr-3" src="img/pro_ls_featured_thumb.jpg" alt="Generic placeholder image">
                   <div class="media-body">
                     <div class="review_stars">
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
+                      <a class="review_star_active" href=""><i class="fa fa-star"></i></a>
+                      <a class="" href=""><i class="fa fa-star"></i></a>
+                      <a class="" href=""><i class="fa fa-star"></i></a>
+                      <a class="" href=""><i class="fa fa-star"></i></a>
+                      <a class="" href=""><i class="fa fa-star"></i></a>
                     </div>
                     <h5 class="mt-0"><a href="#">Product Title Here</a></h5>
-                    <p> <del>$96.00</del>  $72.00</p>
+                    <p> $72.00</p>
                   </div>
                 </div>
               </div>
-              <div class="single_link_featured">
-                <div class="media">
-                  <img class="align-self-start  mr-3" src="img/pro_ls_featured_thumb.jpg" alt="Generic placeholder image">
-                  <div class="media-body">
-                    <div class="review_stars">
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                    </div>
-                    <h5 class="mt-0"><a href="#">Product Title Here</a></h5>
-                    <p> <del>$96.00</del>  $72.00</p>
-                  </div>
-                </div>
-              </div>
-              <div class="single_link_featured">
-                <div class="media">
-                  <img class="align-self-start  mr-3" src="img/pro_ls_featured_thumb.jpg" alt="Generic placeholder image">
-                  <div class="media-body">
-                    <div class="review_stars">
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>
-                    </div>
-                    <h5 class="mt-0"><a href="#">Product Title Here</a></h5>
-                    <p> <del>$96.00</del>  $72.00</p>
-                  </div>
-                </div>
               </div>
             </div>
             
@@ -821,12 +845,12 @@
         <div class="col">
           <div class="product_pagination">
             <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#"><span><i class="fa fa-angle-left"></i> </span>Previous </a></li>
+              <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#"><span><i class="fa fa-angle-left"></i> </span><p>Previous</p> </a></li>
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next <span><i class="fa fa-angle-right"></i></span></a></li>
+                <li class="page-item"><a class="page-link" href="#"><p>Next</p><span><i class="fa fa-angle-right"></i></span></a></li>
               </ul>
             </nav>
           </div>
@@ -839,7 +863,7 @@
   <section class="pro_ls_our_clients">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 m-auto brand_heading text-center">
+        <div class="col-sm-8 col-md-6 m-auto brand_heading text-center">
           <h2>Our Brands</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
           <hr>
@@ -876,41 +900,47 @@
     </div>
   </section>
   
-  <section id="product_ls_newslatter">
+  <section class="product_ls_newslatter">
     <div class="container">
       <div class="row">
-        <div class="col-sm-2 offset-sm-2 col-12">
-          <h3 class="text-right">Sign Up For Our
+        <div class="col-md-4 col-12">
+          <h3 class="text-md-right text-sm-center ">Sign Up For Our
 Monthly Newsletter</h3>
         </div>
-        <div class="col-sm-8 col-12 text-left">
+        <div class="col-md-8 col-12 text-left text-sm-center text-md-left">
           <form action="index.html" class="p_ls_newslatter_form">
-            <p><i class="fa fa-envelope"></i> | <input type="search" placeholder="Email Address"> <input type="submit" value="Subscribe"></p>
+            
+            <p class="p_ls_newslatter_input"> <i class="fa fa-envelope"></i> <span>|</span> <input type="search" placeholder="Email Address"> 
+             <input type="submit" value="Subscribe">
+             </p>
+              
           </form>
         </div>
       </div>
     </div>
   </section>
   
-  <footer id="product_ls_footer_top">
+  <footer class="product_ls_footer_top">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="footer_widget_1">
-            <a href="#"><h1>EXE</h1></a><span>Clean and Universal PSD Template</span>
+            <a href="#" class="footer_logo"><h1>EXE</h1></a><span>Clean and Universal PSD Template</span>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl commodo consequat. </p>
-            <ul class="footer_social_links">
-              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-tumblr-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-              <li><a href="#"><i class="fa fa-rss-square"></i></a></li>
-            </ul>
+            
+            <div class="top_social_links">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-tumblr-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss-square"></i></a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="footer_widget_2">
             <h5>Informations</h5>
             <hr class="p_ls_fw_title_underline">
@@ -924,7 +954,7 @@ Monthly Newsletter</h3>
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="footer_widget_3">
             <h5>Recent Posts</h5>
             <hr class="p_ls_fw_title_underline">
@@ -933,12 +963,10 @@ Monthly Newsletter</h3>
                 <a href="#">Corem ipsum dolor sit amet</a>
                 <date>04 February 2015</date>
               </li>
-              <hr>
               <li>
                 <a href="#">Corem ipsum dolor sit amet</a>
                 <date>04 February 2015</date>
               </li>
-              <hr>
               <li>
                 <a href="#">Corem ipsum dolor sit amet</a>
                 <date>04 February 2015</date>
@@ -946,31 +974,30 @@ Monthly Newsletter</h3>
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="footer_widget_4">
             <h5>Get In Touch</h5>
             <hr class="p_ls_fw_title_underline">
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing diam nonummy.</p>
             <address>
-              <i class="fa fa-map-marker"></i>
               795 South Park Avenue, Door 6 Wonderland, CA 94107, Australia
             </address>
             <hr>
-            <p><i class="fa fa-mobile"></i> +440 875369208</p>
-            <p><i class="fa fa-paper-plane"></i><a href="#">support@sitename.com</a></p>
+            <p class="widget_phone">+440 875369208</p>
+            <p  class="widget_email"><a href="#">support@sitename.com</a></p>
           </div>
         </div>
       </div>
     </div>
   </footer>
   
-    <footer id="product_ls_footer_bottom">
+    <footer class="product_ls_footer_bottom">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-12">
+        <div class="col-md-5 col-12">
           © 2015 èxe, Design by <a href="#">ThemeFire</a>   /   Only for <a href="#">Envato Market</a>
         </div>
-        <div class="col-sm-6 col-12">
+        <div class="col-md-7 col-12">
           <div class="footer_bottom">
           <div class="payment_options">
             <div class="payment_paypal"><a href="#">Paypal</a></div>
